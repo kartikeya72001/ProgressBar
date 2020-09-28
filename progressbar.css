@@ -52,3 +52,93 @@
     text-align: center;
     font-size: 4rem;
   }
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+@media (min-width:576px) {
+    .container{
+        max-width: 540px
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 720px
+    }
+}
+@media (min-width:992px) {
+    .container{
+        max-width: 960px
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1140px
+    }
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+.no-gutters > .col,
+.no-gutters > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0
+}
+.col,.col-sm{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%
+}
+@media (min-width:576px) {
+  .col-sm {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%
+  }
+}
+.dot {
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border: solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot:hover{
+  transform: scale(1.2);
+  background-color: yellowgreen !important;
+}
+.per{
+  font-weight: 900 !important;
+  font-size: 1rem !important;
+  position: relative;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  background-image: url("bg.jpg");
+  background-size: auto;
+}

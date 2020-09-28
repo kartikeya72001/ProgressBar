@@ -4,12 +4,13 @@
     border: solid white;
     border-width: thick;
     outline: solid black;
+    color: ;
   }
   
   #myBar {
     width: 10%;
     height: 30px;
-    background-color:dodgerblue;
+    background-image: linear-gradient(to right,cornflowerblue,blue,darkblue);
   }
   .btn {
       display: inline-block;

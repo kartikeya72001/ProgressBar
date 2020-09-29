@@ -43,17 +43,23 @@ function move() {
   function first(){
     document.getElementById("myBar").style.width = "14%";
     document.getElementById(13).style.backgroundColor = "greenyellow";
+    document.getElementById(32).style.backgroundColor = "#bbb";
+    document.getElementById(52).style.backgroundColor = "#bbb";
+    document.getElementById(71).style.backgroundColor = "#bbb";
   }
   function second(){
     document.getElementById("myBar").style.width = "32%";
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "greenyellow";
+    document.getElementById(52).style.backgroundColor = "#bbb";
+    document.getElementById(71).style.backgroundColor = "#bbb";
   }
   function third(){
     document.getElementById("myBar").style.width = "52%";
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "greenyellow";
     document.getElementById(52).style.backgroundColor = "greenyellow";
+    document.getElementById(71).style.backgroundColor = "#bbb";
   }
   function fourth(){
     document.getElementById("myBar").style.width = "71%";

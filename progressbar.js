@@ -35,6 +35,7 @@ function move() {
   }
   function reset(){
       document.getElementById("myBar").style.width = "1%";
+      document.getElementById("percentage").innerHTML = "1%"
       document.getElementById(13).style.backgroundColor = "#bbb";
       document.getElementById(32).style.backgroundColor = "#bbb";
       document.getElementById(52).style.backgroundColor = "#bbb";
@@ -42,6 +43,7 @@ function move() {
   }
   function first(){
     document.getElementById("myBar").style.width = "14%";
+    document.getElementById("percentage").innerHTML = "15%"
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "#bbb";
     document.getElementById(52).style.backgroundColor = "#bbb";
@@ -49,6 +51,7 @@ function move() {
   }
   function second(){
     document.getElementById("myBar").style.width = "32%";
+    document.getElementById("percentage").innerHTML = "30%"
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "greenyellow";
     document.getElementById(52).style.backgroundColor = "#bbb";
@@ -56,6 +59,7 @@ function move() {
   }
   function third(){
     document.getElementById("myBar").style.width = "52%";
+    document.getElementById("percentage").innerHTML = "50%"
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "greenyellow";
     document.getElementById(52).style.backgroundColor = "greenyellow";
@@ -63,6 +67,7 @@ function move() {
   }
   function fourth(){
     document.getElementById("myBar").style.width = "71%";
+    document.getElementById("percentage").innerHTML = "70%"
     document.getElementById(13).style.backgroundColor = "greenyellow";
     document.getElementById(32).style.backgroundColor = "greenyellow";
     document.getElementById(52).style.backgroundColor = "greenyellow";

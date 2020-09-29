@@ -46,11 +46,15 @@
     font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 2rem;
+    text-shadow: 1px 1px #fff,
+                  -1px -1px #fff;
   }
   .heading{
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 4rem;
+    text-shadow: 1px 1px #fff,
+                  -1px -1px #fff;
   }
   .container{
     width: 100%;
@@ -137,8 +141,5 @@
 }
 html{
   overflow-x: hidden;
-}
-body{
   background-image: url("bg.jpg");
-  background-size: auto;
 }

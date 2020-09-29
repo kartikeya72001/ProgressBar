@@ -1,7 +1,7 @@
 function move() {
     var elem = document.getElementById("myBar"); 
     var elem2 = document.getElementById("percentage");  
-    var width = 10;
+    var width = 1;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= 100) {
@@ -34,7 +34,7 @@ function move() {
     }
   }
   function reset(){
-      document.getElementById("myBar").style.width = "10%";
+      document.getElementById("myBar").style.width = "1%";
       document.getElementById(13).style.backgroundColor = "#bbb";
       document.getElementById(32).style.backgroundColor = "#bbb";
       document.getElementById(52).style.backgroundColor = "#bbb";
